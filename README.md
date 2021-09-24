@@ -17,8 +17,8 @@ This dataset has both sentence-level and token-level annotation. In the sentence
     },
 ```
 
-Tokens/Tags|I|need|a|tutor|because|**chemistry**|**exam**|is|**killing**|**me**
------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------
+Tags|I|need|a|tutor|because|**chemistry**|**exam**|is|**killing**|**me**
+---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------
 Anger|O-AN|O-AN|O-AN|O-AN|O-AN|O-AN|O-AN|O-AN|O-AN|O-AN
 Disgust|O-DI|O-DI|O-DI|O-DI|O-DI|O-DI|O-DI|O-DI|O-DI|O-DI
 Fear|O-FE|O-FE|O-FE|O-FE|O-FE|O-FE|O-FE|O-FE|**B-FE**|O-FE
