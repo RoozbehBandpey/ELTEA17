@@ -17,17 +17,17 @@ This dataset has both sentence-level and token-level annotation. In the sentence
     },
 ```
 
-Tokens/Tags | I | need | a | tutor | because | **chemistry** | **exam** | is | **killing** | **me**
------------ |  ----------- |  ----------- |  ----------- |  ----------- |  ----------- |  ----------- |  ----------- |  ----------- |  ----------- |  -----------
-Anger |  O-AN |  O-AN |  O-AN |  O-AN |  O-AN |  O-AN |  O-AN |  O-AN |  O-AN |  O-AN
-Disgust |  O-DI |  O-DI |  O-DI |  O-DI |  O-DI |  O-DI |  O-DI |  O-DI |  O-DI |  O-DI
-Fear |  O-FE |  O-FE |  O-FE |  O-FE |  O-FE |  O-FE |  O-FE |  O-FE |  **B-FE** |  O-FE
-Sadness |  O-SA |  O-SA |  O-SA |  O-SA |  O-SA |  O-SA |  O-SA |  O-SA |  **B-SA** |  O-SA
-Surprise |  O-SU |  O-SU |  O-SU |  O-SU |  O-SU |  O-SU |  O-SU |  O-SU |  O-SU |  O-SU
-Joy |  O-JO |  O-JO |  O-JO |  O-JO |  O-JO |  O-JO |  O-JO |  O-JO |  O-JO |  O-JO
-Holder |  O-EH |  O-EH |  O-EH |  O-EH |  O-EH |  O-EH |  O-EH |  O-EH |  O-EH |  **B-EH**
-Cause |  O-EC |  O-EC |  O-EC |  O-EC |  O-EC |  **B-EC** |  **I-EC** |  O-EC |  O-EC |  O-EC
-Target |  O-ET |  O-ET |  O-ET |  O-ET |  O-ET |  O-ET |  **B-ET** |  O-ET |  O-ET |  O-ET
+Tokens/Tags|I|need|a|tutor|because|**chemistry**|**exam**|is|**killing**|**me**
+-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------
+Anger|O-AN|O-AN|O-AN|O-AN|O-AN|O-AN|O-AN|O-AN|O-AN|O-AN
+Disgust|O-DI|O-DI|O-DI|O-DI|O-DI|O-DI|O-DI|O-DI|O-DI|O-DI
+Fear|O-FE|O-FE|O-FE|O-FE|O-FE|O-FE|O-FE|O-FE|**B-FE**|O-FE
+Sadness|O-SA|O-SA|O-SA|O-SA|O-SA|O-SA|O-SA|O-SA|**B-SA**|O-SA
+Surprise|O-SU|O-SU|O-SU|O-SU|O-SU|O-SU|O-SU|O-SU|O-SU|O-SU
+Joy|O-JO|O-JO|O-JO|O-JO|O-JO|O-JO|O-JO|O-JO|O-JO|O-JO
+Holder|O-EH|O-EH|O-EH|O-EH|O-EH|O-EH|O-EH|O-EH|O-EH|**B-EH**
+Cause|O-EC|O-EC|O-EC|O-EC|O-EC|**B-EC**|**I-EC**|O-EC|O-EC|O-EC
+Target|O-ET|O-ET|O-ET|O-ET|O-ET|O-ET|**B-ET**|O-ET|O-ET|O-ET
 
 
 ## Citation
