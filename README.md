@@ -30,6 +30,36 @@ Cause|O-EC|O-EC|O-EC|O-EC|O-EC|**B-EC**|**I-EC**|O-EC|O-EC|O-EC
 Target|O-ET|O-ET|O-ET|O-ET|O-ET|O-ET|**B-ET**|O-ET|O-ET|O-ET
 
 
+Total number of tweets||2034
+-----------|-----------|-----------
+Cross validation: 5-fold|Total number of tweets in train segment|1627
+Cross validation: 5-fold|Total number of tweets in test segment|407 
+Maximum tweet length||38  
+Minimum tweet length||3   
+Average tweet length||24  
+Vocabulary size||4330
+
+
+Emotion|# tweets|# tweets with cause (%)|# tweets with target (%)|# tweets with holder (%)
+-----------|-----------|-----------|-----------|-----------
+Joy|488|226 (46.3 \%)|433 (88.72 %)|451 (92.41 %)
+Anger|246|101 (41.22 \%)|164 (66.66 %)|172 (69.91 %)
+Disgust|345|112 (32.46 \%)|298 (86.37 %)|283 (82.02 %)
+Fear|244|98 (40.15 \%)|151 (61.88 %)|186 (76.22 %)
+Sadness|447|207 (46.25 \%)|421 (94.18 %)|428 (95.74 %)
+Surprise|264|117 (44.46 \%)|194 (73.48 %)|188 (71.21 %)
+Total| 2034|861 (42.33 \%)|1661 (81.66 %)|1708 (83.97 %)
+
+Emotion|Maximum length|Minimum length|Average length
+-----------|-----------|-----------|-----------
+Joy|33|2|19
+Anger|33|4|21
+Disgust|38|7|23
+Fear|30|4|19
+Sadness|38|3|20
+Surprise|32|5|19
+
+
 ## Citation
 For academic usage please cite the following pre-print
 [Structured Emotion Prediction of Tweets With Co-extraction of Cause, Holder and Target of Emotions](https://www.researchgate.net/profile/Roozbeh-Bandpey-2/publication/341344305_Structured_Emotion_Prediction_of_Tweets_With_Co-extraction_of_Cause_Holder_and_Target_of_Emotions/links/5ebbc08ea6fdcc90d6728396/Structured-Emotion-Prediction-of-Tweets-With-Co-extraction-of-Cause-Holder-and-Target-of-Emotions.pdf)
