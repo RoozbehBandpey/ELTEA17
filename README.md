@@ -11,7 +11,7 @@ This dataset has both sentence-level and token-level annotation. In the sentence
 ```json
     {
         "emotion": "fea",
-        "text": "I need a chemistry tutor because this is blowing me",
+        "text": "I need a tutor because chemistry exam is killing me",
         "sarcasm": "N",
         "sent_num": "305"
     },
